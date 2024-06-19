@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Alimentação",
+        "id": "1",
+        "texto": "Coma mais frutas, legumes e verduras. Escolha grãos integrais. Beba bastante água e evite bebidas açucaradas.",
+        "icone": "/icones/comida-dietetica.png",
+        "alt": "Comida saldável"
+    },
+    {
+        "titulo": "Atividade física",
+        "id": "2",
+        "texto": "Pratique exercícios físicos regularmente. Escolha atividades que você goste. Comece devagar e aumente a intensidade e a duração dos exercícios gradualmente.",
+        "icone": "/icones/atividade-fisica.png",
+        "alt": "Atividade física"
+    },
+    {
+        "titulo": "Sono",
+        "id": "3",
+        "texto": "Durma de 7 a 8 horas por noite. Crie um ambiente de sono relaxante. Evite cafeína e álcool antes de dormir.",
+        "icone": "/icones/sono.png",
+        "alt": "Sono"
+    },
+    {
+        "titulo": "Saúde mental",
+        "id": "4",
+        "texto": "Gerencie o estresse. Conecte-se com outras pessoas. Procure ajuda profissional se precisar.",
+        "icone": "/icones/mente.png",
+        "alt": "Saúde mental"
+    },
+    {
+        "titulo": "Outras dicas",
+        "id": "5",
+        "texto": "Faça exames médicos regulares. Evite fumar. Limite o consumo de álcool.",
+        "icone": "/icones/dica.png",
+        "alt": "Outras dicas"
+    }
+]

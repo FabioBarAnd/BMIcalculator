@@ -1,0 +1,32 @@
+.footer {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10em;
+    padding: 1.5em;
+}
+
+.redes ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 5px;
+}
+
+.redes ul li a{
+    gap: 15px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.redes ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        justify-content: space-between; 
+    }
+}

@@ -1,0 +1,9 @@
+.resultado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoSimples {
+    background-color: var(--branco);
+    color: var(--preto);
+}

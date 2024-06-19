@@ -1,0 +1,22 @@
+.bonsHabitos {
+    background: rgb(198,255,253);
+    background: linear-gradient(0deg, rgba(198,255,253,1) 0%, rgba(237,242,250,1) 42%, rgba(255,255,255,1) 100%);
+    padding: 7.5em 7em 0em 7em;
+}
+
+.dicas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+@media screen and (max-width: 500px) {
+    .bonsHabitos {  
+        padding: 7.5em 3em 0em 3em;
+    }
+
+    .dicas {
+        align-items: center;
+    }
+}

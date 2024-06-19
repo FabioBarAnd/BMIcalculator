@@ -1,0 +1,12 @@
+.ul {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: var(--preto);
+}

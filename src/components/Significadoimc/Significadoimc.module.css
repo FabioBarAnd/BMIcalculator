@@ -1,0 +1,38 @@
+.significado {
+    padding: 15em 7em 7.5em 7em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem {
+    align-items: center;
+}
+
+.titulo {
+    font-size: 30px;
+    margin: .5em 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .significado {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3em;
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .significado {
+        padding: 25em 7em 7.5em 7em;
+        display: flex;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+}

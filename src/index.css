@@ -1,0 +1,21 @@
+:root {
+  --preto: #000;
+  --branco: #fff;
+  --azul-escuro: rgb(0, 68, 255);
+  --azul-claro: #c6fffd;
+}
+
+body {
+  background-color: var(--branco);
+  font-family:'Mukta', sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+

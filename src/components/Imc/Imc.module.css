@@ -1,0 +1,54 @@
+.imc {
+    background: rgb(237,242,250);
+    background: linear-gradient(90deg, rgba(237,242,250,1) 0%, rgba(198,255,253,1) 100%, rgba(9,24,77,1) 100%);
+    width: 65%;
+    padding: 30vh 7em;
+    padding-right: 3vh;
+    border-radius: 0 0 30px 0;
+}
+
+.titulo {
+    width: 65%;
+    font-size: 55px;
+    margin: .5em 0;
+}
+
+.paragrafo {
+    width: 65%;
+}
+
+@media screen and (max-width: 1024px) {
+    .imc {
+        width: auto;
+        padding: 20vh 7em;
+        border-radius: 0;
+    }
+    
+    .titulo {
+        width: auto;
+        font-size: 40px;
+        margin: .5em 0;
+    }
+    
+    .paragrafo {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {   
+    .imc {
+        padding: 12vh 7em 23vh 7em;
+    }
+    
+    .titulo {
+        width: 100%;
+        font-size: 30px;
+        margin: .5em 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .imc {
+        padding: 12vh 7em 28vh 7em;
+    }
+}
